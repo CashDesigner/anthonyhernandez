@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anthony Hernandez – Portfolio</title>
+  <meta name="description" content="Mechanical Engineering student at Lamar University." />
+  <meta property="og:image" content="/assets/preview.jpg" />
+  <link rel="icon" href="/assets/favicon.png" />
+  <style>
+    :root{
+      --bg1:#e6f4ff;
+      --bg2:#cfefff;
+      --bg3:#b3e5ff;
+      --ink:#0f172a;
+      --muted:#334155;
+      --accent:#ffd54f;
+      --accent-ink:#1f2937;
+      --card:#ffffff;
+      --border:#e2e8f0;
+    }
+    *{box-sizing:border-box}
+    body {
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+      color:var(--ink);
+      background: linear-gradient(180deg,var(--bg1) 0%, var(--bg2) 45%, var(--bg3) 100%);
+    }
+    a { color:#0ea5e9; text-decoration:none }
+    a:hover{ text-decoration:underline }
+    header {
+      background:rgba(255,255,255,.7);
+      backdrop-filter:saturate(120%) blur(6px);
+      border-bottom:1px solid var(--border);
+      padding:1rem;
+      text-align:center;
+      font-size:1.5rem;
+      font-weight:800;
+      color:var(--ink);
+    }
+    main { max-width:900px; margin:auto; padding:2rem 1rem; }
+    .heroimg { width:100%; border-radius:16px; border:3px solid var(--accent); }
+    h1{ color:#0e7490; margin:.6rem 0 }
+    h2{ color:#0f172a; border-bottom:2px solid var(--border); padding-bottom:.25rem; margin-top:2rem }
+    .btn {
+      display:inline-block; padding:.65rem 1rem; border-radius:12px;
+      border:1px solid #facc15; background:var(--accent); color:var(--accent-ink); font-weight:700;
+      box-shadow: 0 1px 0 rgba(0,0,0,.05);
+    }
+    .btn:hover{ filter:brightness(0.98) }
+    .card{
+      background:var(--card); border:1px solid var(--border); border-radius:14px;
+      padding:1rem; box-shadow:0 1px 1px rgba(2,6,23,.04);
+    }
+    footer { text-align:center; padding:2rem 1rem; font-size:.95rem; color:var(--muted) }
+    ul{margin:.5rem 0 .5rem 1.25rem}
+    .lead{ color:var(--muted) }
+    .topbar{ display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 }
+  </style>
+</head>
+<body>
+  <header>Anthony Hernandez</header>
+  <main>
+    <img src="/assets/avatar.jpg" class="heroimg" alt="Anthony Hernandez portrait">
+    <h1>Mechanical Engineering Student</h1>
+    <p class="lead">Mechanical Engineering student at Lamar University (Class of 2029). Member of SHPE, recognized for customer service and teamwork at Black Gold Barbeque. Skilled in AutoCAD 2024, Microsoft Office 2022, communication, and teamwork.</p>
+
+    <div class="topbar">
+      <a class="btn" href="/assets/Anthony%20Hernandez%20Resume.pdf" download>⬇ Download Résumé (PDF)</a>
+      <a class="btn" href="mailto:Ahernande228@lamar.edu">Email</a>
+      <a class="btn" href="https://www.linkedin.com/in/mikey-hernandez-a3426a396">LinkedIn</a>
+    </div>
+
+    <h2 id="full-resume">Full Résumé Content</h2>
+    <div class="card">
+      <h3>Education</h3>
+      <p><strong>Lamar University</strong>, Beaumont, TX — Bachelor of Science in Mechanical Engineering, <em>Expected May 2029</em></p>
+    </div>
+
+    <div class="card" style="margin-top:12px">
+      <h3>Work Experience</h3>
+      <p><strong>Black Gold Barbeque</strong>, Buna, TX — Meat Cutter <em>(Jan 2025 – Present)</em></p>
+      <ul>
+        <li>Provide excellent customer service as the first point of contact, ensuring friendly and efficient communication.</li>
+        <li>Collaborate closely with coworkers to maintain smooth operations and uphold teamwork standards.</li>
+        <li>Prepare and cut barbecue meats with precision and consistency to meet customer expectations.</li>
+        <li>Maintain patience and professionalism in fast-paced situations, contributing to a positive work environment.</li>
+        <li>Recognized as Employee of the Month, demonstrating dedication and reliability.</li>
+      </ul>
+    </div>
+
+    <div class="card" style="margin-top:12px">
+      <h3>Organizations</h3>
+      <ul>
+        <li>Society of Hispanic Professional Engineers (SHPE) — Member (Aug 2025 – Present)</li>
+        <li>Mechanical Engineers Without Borders — Planned Member</li>
+      </ul>
+    </div>
+
+    <div class="card" style="margin-top:12px">
+      <h3>Skills</h3>
+      <ul>
+        <li>Software: AutoCAD 2024, Microsoft Office 2022</li>
+        <li>Soft Skills: Strong communication, teamwork, and customer service abilities</li>
+      </ul>
+    </div>
+
+    <div class="card" style="margin-top:12px">
+      <h3>Honors & Awards</h3>
+      <ul>
+        <li>Smith-Hutson Scholarship — Awarded for academic achievement and leadership potential.</li>
+        <li>University Scholars Program — Recognized for outstanding academic performance at Lamar University.</li>
+        <li>Employee of the Month, Black Gold Barbeque — Acknowledged for dedication, teamwork, and excellent customer service.</li>
+      </ul>
+    </div>
+
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:Ahernande228@lamar.edu">Ahernande228@lamar.edu</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/mikey-hernandez-a3426a396">linkedin.com/in/mikey-hernandez-a3426a396</a></p>
+  </main>
+
+  <footer>© <script>document.write(new Date().getFullYear())</script> Anthony Hernandez</footer>
+</body>
+</html>
