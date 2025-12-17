@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anthony Hernandez – Portfolio</title>
+  <meta name="description" content="Mechanical Engineering student at Lamar University (Class of 2029). SHPE member. Sanitation and production experience." />
+  <meta property="og:title" content="Anthony Hernandez – Portfolio" />
+  <meta property="og:description" content="Mechanical Engineering student at Lamar University (Class of 2029). AutoCAD + teamwork. Sanitation & production experience." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/assets/preview.jpg" />
+  <link rel="icon" href="/assets/favicon.png" />
+  <style>
+    :root{
+      --bg:#0b0b0f;
+      --bg2:#141420;
+      --ink:#f5f5f7;
+      --muted:#c7c7cf;
+      --accent:#e11d48;   /* red */
+      --accent2:#ef4444;  /* red alt */
+      --card:rgba(255,255,255,.06);
+      --border:rgba(255,255,255,.12);
+      --link:#60a5fa;     /* soft blue for links */
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+      color:var(--ink);
+      background: radial-gradient(1200px 600px at 30% 10%, rgba(225,29,72,.25), transparent 60%),
+                  radial-gradient(900px 500px at 80% 0%, rgba(239,68,68,.18), transparent 55%),
+                  linear-gradient(180deg, var(--bg) 0%, var(--bg2) 100%);
+    }
+    a{color:var(--link);text-decoration:none}
+    a:hover{text-decoration:underline}
+    header{
+      position:sticky; top:0;
+      background:rgba(11,11,15,.85);
+      backdrop-filter:saturate(120%) blur(6px);
+      border-bottom:1px solid var(--border);
+    }
+    .wrap{max-width:980px;margin:0 auto;padding:0 16px}
+    .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+    .brand{display:flex;align-items:center;gap:10px;font-weight:900;font-size:18px;letter-spacing:.2px}
+    .dot{width:10px;height:10px;border-radius:999px;background:var(--accent); box-shadow:0 0 18px rgba(225,29,72,.6)}
+    .links{display:flex;gap:14px;flex-wrap:wrap;font-weight:800}
+    main{padding:22px 0 60px}
+    .hero{
+      display:grid;grid-template-columns:1.15fr .85fr;gap:18px;
+      padding:26px 0 10px;
+    }
+    @media (max-width:900px){ .hero{grid-template-columns:1fr} }
+    h1{margin:0 0 10px;font-size:42px;line-height:1.05}
+    .accent{color:var(--accent)}
+    .lead{margin:0;color:var(--muted);font-size:17px;max-width:70ch}
+    .heroimg{
+      width:100%;aspect-ratio:1/1;object-fit:cover;
+      border-radius:18px;border:2px solid rgba(225,29,72,.65);
+      box-shadow:0 12px 34px rgba(0,0,0,.45);
+    }
+    .btnbar{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+    .btn{
+      display:inline-block;
+      padding:10px 14px;
+      border-radius:12px;
+      border:1px solid rgba(255,255,255,.12);
+      background:linear-gradient(180deg, var(--accent) 0%, var(--accent2) 100%);
+      color:white;
+      font-weight:900;
+      letter-spacing:.2px;
+      box-shadow:0 8px 18px rgba(0,0,0,.35);
+    }
+    .btn.secondary{
+      background:rgba(255,255,255,.08);
+      border:1px solid var(--border);
+      color:var(--ink);
+      font-weight:900;
+    }
+    section{margin-top:22px}
+    h2{
+      margin:26px 0 12px;
+      font-size:22px;
+      color:var(--ink);
+      border-bottom:2px solid rgba(255,255,255,.10);
+      padding-bottom:6px;
+    }
+    .card{
+      background:var(--card);
+      border:1px solid var(--border);
+      border-radius:16px;
+      padding:16px;
+      box-shadow:0 12px 30px rgba(0,0,0,.25);
+    }
+    ul{margin:.5rem 0 .25rem 1.2rem}
+    footer{margin-top:32px;color:var(--muted);text-align:center;padding:20px 0 0}
+    .small{color:var(--muted);font-size:14px;margin-top:8px}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <div class="brand"><span class="dot"></span>Anthony Hernandez</div>
+      <nav class="links">
+        <a href="#about">About</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div>
+        <h1><span class="accent">Mechanical Engineering</span> Student</h1>
+        <p class="lead">Mechanical Engineering student at Lamar University (Class of 2029). SHPE member. Customer-facing production experience with sanitation, food safety, and high-volume workflow reliability.</p>
+        <div class="btnbar">
+          <a class="btn" href="/assets/Anthony_Hernandez_Updated_Resume.pdf" download>Download Résumé (PDF)</a>
+          <a class="btn secondary" href="mailto:Ahernande228@lamar.edu">Email</a>
+          <a class="btn secondary" href="https://www.linkedin.com/in/mikey-hernandez-a3426a396">LinkedIn</a>
+        </div>
+        <p class="small">Ahernande228@lamar.edu</p>
+      </div>
+      <div>
+        <img class="heroimg" src="/assets/avatar.jpg" alt="Portrait of Anthony Hernandez" />
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <div class="card">
+        <p>Anthony Hernandez is a Mechanical Engineering student at Lamar University in Beaumont, Texas. He is a member of the Society of Hispanic Professional Engineers (SHPE) and is developing proficiency with AutoCAD and Microsoft Office. He brings dependable communication, teamwork, and process discipline from high-volume food production and sanitation work.</p>
+      </div>
+    </section>
+
+    <section id="resume">
+      <h2>Resume</h2>
+
+      <div class="card">
+        <h3 style="margin:0 0 8px;color:var(--accent)">Education</h3>
+        <p style="margin:0"><strong>Lamar University</strong>, Beaumont, TX — B.S. Mechanical Engineering (Expected May 2029)</p>
+      </div>
+
+      <div class="card" style="margin-top:12px">
+        <h3 style="margin:0 0 8px;color:var(--accent)">Work Experience</h3>
+        <p style="margin:0 0 8px"><strong>Black Gold Barbeque</strong>, Buna, TX — Meat Cutter / Sanitation &amp; Production Associate (Jan 2025 – Present)</p>
+        <ul>
+          <li>Provided excellent customer service as the first point of contact, ensuring clear communication and a positive customer experience</li>
+          <li>Prepared and cut barbecue meats with precision and consistency, meeting quality and presentation standards</li>
+          <li>Followed food safety, sanitation, and hygiene procedures to maintain a clean and compliant work environment</li>
+          <li>Performed daily sanitation of equipment, tools, and workstations to prevent contamination and ensure safe food production</li>
+          <li>Collaborated with team members to maintain efficient production flow in a fast-paced setting</li>
+          <li>Demonstrated professionalism, patience, and reliability during high-volume service periods</li>
+          <li>Recognized as Employee of the Month for dedication, teamwork, and consistent performance</li>
+        </ul>
+      </div>
+
+      <div class="card" style="margin-top:12px">
+        <h3 style="margin:0 0 8px;color:var(--accent)">Organizations</h3>
+        <ul>
+          <li>Society of Hispanic Professional Engineers (SHPE) — Member (Aug 2025 – Present)</li>
+          <li>Engineers Without Borders — Planned Member</li>
+        </ul>
+      </div>
+
+      <div class="card" style="margin-top:12px">
+        <h3 style="margin:0 0 8px;color:var(--accent)">Skills</h3>
+        <ul>
+          <li>Software: AutoCAD 2024, Microsoft Office 2022</li>
+          <li>Soft skills: Communication, teamwork, customer service</li>
+        </ul>
+      </div>
+
+      <div class="card" style="margin-top:12px">
+        <h3 style="margin:0 0 8px;color:var(--accent)">Honors &amp; Awards</h3>
+        <ul>
+          <li>Smith-Hutson Scholarship — Awarded for academic achievement and leadership potential</li>
+          <li>University Scholars Program — Recognized for outstanding academic performance at Lamar University</li>
+          <li>Employee of the Month, Black Gold Barbeque — Recognized for dedication, teamwork, and customer service</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="card">
+        <p style="margin:0 0 8px"><strong>Email:</strong> <a href="mailto:Ahernande228@lamar.edu">Ahernande228@lamar.edu</a></p>
+        <p style="margin:0"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/mikey-hernandez-a3426a396">linkedin.com/in/mikey-hernandez-a3426a396</a></p>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="y"></span> Anthony Hernandez
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
